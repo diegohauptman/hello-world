@@ -1,3 +1,4 @@
 steps:
-- name: gcr.io/cloud-builders/git
-  args: ['push', 'https://github.com/diegohauptman/hello-world.git', 'master']
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["app", "deploy"]
+timeout: "1600s"
