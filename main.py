@@ -4,7 +4,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('This code is in GitHub mirrorred in CSR!')
+        self.response.write('Changing code to test Build Trigger')
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
